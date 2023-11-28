@@ -89,6 +89,9 @@ a{
     background-color: rgb(194, 194, 194);
     transition: 0.4s;
 }
+.actionButton:focus{
+    background-color: #16C172;
+}
 .content{
     grid-area: 2/2/3/3;
     background-image: linear-gradient(to bottom, #f0f0f0, #ffffff);
@@ -112,6 +115,7 @@ a{
     border: 3px solid #2AFC98;
     border-radius: 10px;
     background-color: #2AFC98;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
